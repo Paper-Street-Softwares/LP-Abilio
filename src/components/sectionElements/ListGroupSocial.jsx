@@ -126,14 +126,15 @@ export default function ListGroupSocial({
             aria-label={t("hero.ctaButtonAriaLabel")}
             label={t("navbar.ctaButtonTextResponsive")}
             className=""
-            textclassName="text-paragraph3"
+            textclassName="text-paragraph3 text-white"
+            color="bg-buttonColorPink"
             size="small"
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
                 height="18"
-                fill="currentColor"
+                fill="white"
                 className="bi bi-whatsapp"
                 viewBox="0 0 18 18"
               >

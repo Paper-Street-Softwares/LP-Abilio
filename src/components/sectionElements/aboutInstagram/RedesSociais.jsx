@@ -47,7 +47,7 @@ const RedesSociais = ({ withAnimation = true }) => {
             height="20"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -58,6 +58,8 @@ const RedesSociais = ({ withAnimation = true }) => {
             <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
           </svg>
         }
+        color="bg-buttonColorPink"
+        textclassName="text-white"
       />
     );
   }
