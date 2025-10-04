@@ -29,13 +29,14 @@ export default function AboutModal() {
             aria-label={t("about.ctaButtonAriaLabel")}
             label={t("about.ctaButtonText")}
             animation={false}
-            className="hover:scale-105 bg-buttonColor text-labelButtons"
+            className="hover:scale-105 bg-buttonColorPink"
+            textclassName="text-white"
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
-                fill="currentColor"
+                fill="white"
                 className="bi bi-whatsapp"
                 viewBox="0 0 18 18"
               >
@@ -53,13 +54,15 @@ export default function AboutModal() {
   return (
     <div>
       <Button
-        className="mt-[48px] text-labelButtons"
+        className="mt-[48px]"
         label={t("about.buttonModalLabelAbout")}
         onClick={onClick}
         removeAnchor={true}
         removeTarget={true}
         animation={true}
-        icon={<MoveRight />}
+        icon={<MoveRight color="white" />}
+        color="bg-buttonColorPink"
+        textclassName="text-white"
       />
 
       <Dialog

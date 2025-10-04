@@ -18,7 +18,7 @@
   },
   "hero": {
     "miniTag": "ADVOGADO EM SÃO PAULO - SP",
-    "title": "Advocacia que gera <span class=\"text-primary font-bold\">confiança real</span>",
+    "title": "Advocacia que gera <span class=\"text-bgSectionDark font-bold\">confiança real</span>",
     "subtitle": "Casos conduzidos com ética e estratégia, entregando resultados que transformam vidas e negócios",
     "ctaButtonText": "Conheça nossa atuação",
     "obsHero": {
