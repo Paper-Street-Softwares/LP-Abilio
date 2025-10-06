@@ -83,7 +83,7 @@ export default function Hero({
             <div className="flex justify-center desktop1:justify-start">
               <div className="flex flex-col items-center desktop1:flex-row text-white">
                 {content.texts.hero.obsHero.icon}
-                <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0 font-secondFont">
                   {t("hero.obsHero.text")}{" "}
                 </p>
               </div>
