@@ -19,7 +19,7 @@ export const theme = {
       bgSectionDark: "#FA63CA",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
-      bgSectionOpacityDark: "#0C003E",
+      bgSectionOpacityDark: "#09012D",
       bgFixedDark: "#05001C",
 
       // Degradê da Lpv
