@@ -83,7 +83,7 @@ export default function Hero({
             <div className="flex justify-center desktop1:justify-start">
               <div className="flex flex-col items-center desktop1:flex-row text-white">
                 {content.texts.hero.obsHero.icon}
-                <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0 font-secondFont">
                   {t("hero.obsHero.text")}{" "}
                 </p>
               </div>
@@ -168,8 +168,8 @@ export default function Hero({
                         className={`mt-[20px] desktop1:mt-0 rounded-xl w-full  object-cover
                         ${
                           colorMode === "light"
-                            ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/10"
-                            : "shadow-custom-opacity shadow-shadowHero/10"
+                            ? "desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/5"
+                            : "shadow-custom-opacity shadow-shadowHero/5"
                         }`}
                       />
                     </picture>

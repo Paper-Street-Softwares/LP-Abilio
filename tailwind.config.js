@@ -19,8 +19,8 @@ export const theme = {
       bgSectionDark: "#FA63CA",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
-      bgSectionOpacityDark: "#111111",
-      bgFixedDark: "#181818",
+      bgSectionOpacityDark: "#0C003E",
+      bgFixedDark: "#05001C",
 
       // Degradê da Lpv
 
@@ -37,12 +37,12 @@ export const theme = {
 
       // Sombras
 
-      shadowHero: "#000000",
-      shadowFeatures: "#000000",
-      shadowAbouts: "#000000",
-      shadowSteps: "#000000",
-      shadowMaps: "#000000",
-      shadowBlogs: "#000000",
+      shadowHero: "#fff",
+      shadowFeatures: "#fff",
+      shadowAbouts: "#fff",
+      shadowSteps: "#fff",
+      shadowMaps: "#fff",
+      shadowBlogs: "#fff",
 
       // Outros
 
@@ -56,7 +56,7 @@ export const theme = {
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Roboto"],
+      secondFont: ["Roboto", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },
