@@ -37,12 +37,12 @@ export const theme = {
 
       // Sombras
 
-      shadowHero: "#000000",
-      shadowFeatures: "#000000",
-      shadowAbouts: "#000000",
-      shadowSteps: "#000000",
-      shadowMaps: "#000000",
-      shadowBlogs: "#000000",
+      shadowHero: "#fff",
+      shadowFeatures: "#fff",
+      shadowAbouts: "#fff",
+      shadowSteps: "#fff",
+      shadowMaps: "#fff",
+      shadowBlogs: "#fff",
 
       // Outros
 
